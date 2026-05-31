@@ -1,0 +1,31 @@
+# PitVerdict Streamlit theme — F1-inspired "decision intelligence" dark UI.
+# Theming reference: https://docs.streamlit.io/develop/api-reference/configuration/config.toml#theme
+
+[theme]
+base = "dark"
+primaryColor = "#e10600"            # F1 red accent (interactive elements/highlights)
+backgroundColor = "#0e1015"         # near-black app background
+secondaryBackgroundColor = "#181b24" # cards / widgets / sidebar panels
+textColor = "#f5f6fa"
+font = "sans-serif"
+headingFontWeights = [800, 700, 600]
+baseRadius = "medium"
+buttonRadius = "large"
+borderColor = "#2a2e3a"
+showWidgetBorder = true
+showSidebarBorder = true
+
+# Deterministic, brand-consistent chart palette (blue=actual, orange=model, etc.).
+chartCategoricalColors = [
+    "#3d9df3",
+    "#ff8700",
+    "#e10600",
+    "#21c354",
+    "#b27eff",
+    "#ffd16a",
+]
+
+[theme.sidebar]
+backgroundColor = "#11141b"
+secondaryBackgroundColor = "#181b24"
+borderColor = "#2a2e3a"

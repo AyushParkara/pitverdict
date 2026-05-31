@@ -1,0 +1,11 @@
+{
+  "source": "MDCE offline demo fallback dataset",
+  "source_url": "",
+  "license_spdx": "NOASSERTION",
+  "license_note": "Repo-authored synthetic demo dataset for MDCE prototype runs. Not official F1, FIA, or team telemetry.",
+  "known_limitations": [
+    "Synthetic dataset used to keep the prototype fully offline-capable.",
+    "Includes proxy/synthetic fields such as predicted_lap_time_s, tyre_temp_proxy_c, speed_consistency.",
+    "Not suitable for claims about real car behavior or official timing feeds."
+  ]
+}

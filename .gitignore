@@ -1,0 +1,32 @@
+.venv/
+.streamlit_home/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local and downloaded data should stay out of git unless explicitly curated.
+data/raw/
+data/processed/
+outputs/
+
+# Notebook/runtime noise.
+.ipynb_checkpoints/
+.DS_Store
+
+# Environments and secrets
+.env
+.env.local
+*.egg-info/
+dist/
+build/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local archives (do not commit)
+ibm_stufff.zip
+*.zip
+

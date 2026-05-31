@@ -138,3 +138,7 @@ docs/                   # full documentation
 ## License
 
 Code: MIT (see [LICENSE](LICENSE)). Data: see [LICENSE-DATA.md](LICENSE-DATA.md) for per-source attribution.
+
+## Demo Video
+[Watch the 3-min demo](https://youtu.be/UaU5Kbepe60)
+

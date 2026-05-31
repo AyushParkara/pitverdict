@@ -127,17 +127,6 @@ outputs/                # generated reports/charts/registries (gitignored)
 docs/                   # full documentation
 ```
 
-## Submission Checklist
-
-| Requirement | Status | Notes |
-|-------------|--------|-------|
-| IBM AI technology used | ✅ Done | IBM Granite integration with deterministic fallback |
-| Public GitHub repository | ⏳ You | Initialize & push this repo |
-| Functioning prototype | ✅ Done | Streamlit app + CLI + 184 tests passing |
-| Clear README | ✅ Done | Problem, AI approach, racing context in this doc |
-| Demo video (3 min) | ⏳ You | Script ready in [docs/DEMO_RUNBOOK.md](docs/DEMO_RUNBOOK.md) |
-| Submit on challenge portal | ⏳ You | https://ibmskillsbuildchallenge-hub.bemyapp.com |
-
 ## Safe Claims
 
 - PitVerdict quantifies confidence in a race strategy recommendation under uncertainty.
